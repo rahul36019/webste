@@ -1,0 +1,40 @@
+@import "color";
+
+footer{
+  height: 200px;
+  width: 100%;
+  color: black;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 2rem;
+  background-color: grey;
+
+  > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    > h1{
+      font:700 2rem;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    > p{
+      font: 500 1rem;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    >h5{
+      font-family: 'Times New Roman', Times, serif;
+        
+    }
+
+    > a{
+      font-family: 'Times New Roman', Times, serif;
+      margin: 2px;
+    }
+
+  }
+
+  
+}
